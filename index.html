@@ -50,7 +50,7 @@
             highlightLayer = e.target;
             highlightLayer.setStyle({
 			color: '#cb6649',
-			wight: 4,
+			weight: 4,
               });
         }
         var map = L.map('map', {
@@ -174,7 +174,7 @@
             minNativeZoom: 0,
             maxNativeZoom: 18
         })
-			layer_Google_sat = L.tileLayer('https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x{x}&y={y}&z={z}', {
+		var	layer_Google_sat = L.tileLayer('https://www.google.cn/maps/vt?lyrs=s@189&gl=cn&x{x}&y={y}&z={z}', {
 			minZoom: 5,
 			maxZoom: 28,
 			attribution: '<a href="https://www.google.com/maps">© Google</a>'
@@ -227,7 +227,7 @@
                 dashArray: '',
                 lineCap: 'butt',
                 lineJoin: 'miter',
-                weight: 2.0, 
+                weight: 1.0, 
                 fill: true,
                 fillOpacity: 1,
                 fillColor: 'rgba(77,175,74,1.0)',
